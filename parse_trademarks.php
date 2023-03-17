@@ -10,7 +10,7 @@ Permission to use under the MIT license https://opensource.org/licenses/MIT
  */
 
 // change to your path
-$path_to_databases = '/home/joe/trademark-sqlite';
+$path_to_databases = 'C:/Users/YourUserName/trademark-sqlite/tmdb.sqlite3';
 $database_connect_string = 'sqlite:'.$path_to_databases.'/tmdb.sqlite3';
 
 $database = new PDO ( $database_connect_string );
